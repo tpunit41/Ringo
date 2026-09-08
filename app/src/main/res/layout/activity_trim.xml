@@ -1,0 +1,24 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#090B12" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:padding="20dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/title" android:textColor="#FFFFFF" android:textSize="22sp"
+            android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/time" android:textColor="#8F9BB3" android:textSize="16sp"
+            android:layout_marginTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <SeekBar android:id="@+id/start" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <SeekBar android:id="@+id/end" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:text="Start / End markers" android:textColor="#8F9BB3"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/preview" android:text="Preview Selection"
+            android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp"/>
+        <Button android:id="@+id/export" android:text="Create Ringtone"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/notification" android:text="Create Notification Tone"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/alarm" android:text="Create Alarm Tone"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/status" android:textColor="#00E5FF"
+            android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp"/>
+    </LinearLayout>
+</ScrollView>
