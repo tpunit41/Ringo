@@ -6,7 +6,7 @@
     <TextView android:text="Your Music, Your Ringtone" android:textColor="#8F9BB3"
         android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14dp"/>
     <EditText android:id="@+id/search" android:hint="Search songs..." android:textColor="#FFFFFF"
-        android:hintTextColor="#778099" android:backgroundTint="#263044"
+        android:textColorHint="#778099" android:backgroundTint="#263044"
         android:layout_width="match_parent" android:layout_height="wrap_content"/>
     <androidx.recyclerview.widget.RecyclerView android:id="@+id/list"
         android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
